@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+}
+
+div#logo {
+    width: 225px;
+    display: block;
+    margin: -35px 0px 0px 50px ;
+}
+
+div#menu {
+    position: absolute;
+    margin: -150px 0px 0px 450px;
+}
+
+div#user {
+    position: absolute;
+    margin: -150px 0px 0px 1400px;
+}
+
+footer p {
+    text-align: center;
+    color: #888888;
+}
+
+input#term {
+    font-size: 11pt;
+    padding: 13px;
+    border-radius: 20px;
+    border: 1px solid #cecece;
+}
+
+input#submit {
+    padding: 10px;
+}
+
+img#user-profile-photo {
+    border-radius: 100px;
+}
+
+

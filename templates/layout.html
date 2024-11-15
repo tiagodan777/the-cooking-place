@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} The Cooking Place {% endblock %}</title>
+    <link rel="stylesheet" href="{{ doc_root }}/css/style.css">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="{{ doc_root }}index.php"><img src="{{ doc_root }}img/logo.png" alt="The Cooking Place Logo"></a>
+        </div>
+        <div id="menu">
+            <nav>
+                <form action="" method="get">
+                    <input type="search" name="term" id="term" placeholder="Search" size="70"> <input type="submit" value="Search" id="submit" hidden>
+                </form>
+            </nav>
+        </div>
+        <div id="user">
+            <a href="{{ doc_root }}index.php"><img src="{{ doc_root }}img/tiago.png" alt="User profile photo" id="user-profile-photo"></a>
+        </div>
+    </header>
+    {% block content %}{% endblock %}
+    <footer>
+        <p>&copy; The Cooking Place {{ 'now'|date('Y') }}</p>
+    </footer>
+</body>
+</html>
