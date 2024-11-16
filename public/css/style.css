@@ -5,17 +5,22 @@ body {
 div#logo {
     width: 225px;
     display: block;
-    margin: -35px 0px 0px 50px ;
+    margin: -45px 0px 0px 50px ;
 }
 
 div#menu {
     position: absolute;
-    margin: -150px 0px 0px 450px;
+    margin: -160px 0px 0px 450px;
 }
 
 div#user {
     position: absolute;
-    margin: -150px 0px 0px 1400px;
+    margin: -160px 0px 0px 1275px;
+}
+
+div#user img {
+    width: 40px;
+    height: 40px;
 }
 
 footer p {
